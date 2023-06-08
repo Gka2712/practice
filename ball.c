@@ -130,7 +130,7 @@ void display(void)
 
 	DrawString("time",42,95,100,100);
 	DrawString("score",52,95,100,100);
-	if(time_limit<=10)
+	if(time_limit<=20)
 	{
 		glColor3f(1.0,0.0,0.0);
 	}
